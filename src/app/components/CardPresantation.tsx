@@ -1,7 +1,7 @@
 import React from 'react'
 import Btn from './Btn'
 import Image from 'next/image'
-export default function CardPresantation({props}) {
+export default function CardPresantation({props}:{props:any}) {
     
   return (
     <section>

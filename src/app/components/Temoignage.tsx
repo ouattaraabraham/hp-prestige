@@ -10,15 +10,15 @@ const src ="https://pixabay.com/fr/photos/simba-chat-gueule-de-bois-portrait-861
 export default function Temoignage({ style }:{style:any}) {
   return (
     <section className="bg-[#F1F5F7] ">
-      <div className="">
+      <div >
         {/* partenaire */}
         <div className={`relative overflow-hidden ${style}`}>
-          <div className="flex w-fit gap-10 animate-temoin hover:pause ">
+          <div className="flex w-fit gap-10 animate-temoignage hover:pause ">
             {DATA_TEMOIGNAGE.map((item) => {
               return (
                 <div
                   key={item.id}
-                  className="bg-white relative flex flex-col p-5 w-[60vw] sm:w-[350px] md:w-[400px] lg:w-[450px] min-h-[270px] rounded-lg border-[1px] text-[15px]] "
+                  className="bg-white relative flex flex-col p-5 w-[85vw] h-[260px] sm:w-[350px] sm:h-[300px] md:w-[400px] md:h-[270px] lg:w-[450px] min-h-[270px] rounded-lg border-[1px] text-[15px]] "
                 >
                   <div className="flex items-center">
                     <Image
@@ -50,13 +50,13 @@ export default function Temoignage({ style }:{style:any}) {
               return (
                 <div
                   key={item.id}
-                  className="bg-white relative flex flex-col p-5 w-[60vw] sm:w-[350px] md:w-[400px] lg:w-[450px] min-h-[270px] rounded-lg border-[1px] text-[15px]] "
+                  className="bg-white relative flex flex-col p-5 w-[85vw] h-[260px] sm:w-[350px] sm:h-[300px] md:w-[400px] md:h-[270px] lg:w-[450px] min-h-[270px] rounded-lg border-[1px] text-[15px]] "
                 >
                   <div className="flex items-center">
                     <Image
                       className="object-cover w-12 h-12 rounded-full"        
                       src={item.img}
-                      alt="Temoignage"
+                      alt="temoignage"
                       width={30}
                       height={30}
                     ></Image>

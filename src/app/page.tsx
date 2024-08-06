@@ -9,7 +9,7 @@ import Temoignage from "./components/Temoignage";
 
 import { DATA_CARD_PRESANTATION,DATA_CARD_PRESANTATION_EQUIPE} from "./Data/constant";
 export default function Home() {
-  const styleTemoigange="pt-[50px] py-[150px]"
+  const styleTemoigange="pt-[50px] py-[100px]"
   return (
     <section className=""> 
      <SliderImageHeader/> 

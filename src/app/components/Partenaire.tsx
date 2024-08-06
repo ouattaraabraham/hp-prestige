@@ -9,7 +9,7 @@ const Partenaire = () => {
         {/* partenaire */}
         <h1 className="w-fit mx-auto text-[#686868] text-[25px] lg:text-[35px] font-bold">{DATA_PARTENAIRE.h1}</h1>
         <div className="overflow-hidden mx-auto max-w-[1140px] px-[.75rem] pt-[100px] pb-[50px] lg:pt-[150px]">
-          <div className="flex gap-10 animate-temoignage hover:pause">
+          <div className="flex gap-10 animate-partenaire hover:pause">
 
             {DATA_PARTENAIRE.logo.map((item, index) => {
               return (

@@ -33,7 +33,7 @@ export default function Header() {
       <div className="z-50 w-full bg-[#FFFFFF] shadow-md">
         <div className=" mx-auto w-ful flex items-center justify-between max-w-[1140px] px-[.75rem] lg:px-10 ">
             <Link href="/">
-              <Image src={logoHpPrestige} style={{ width: 130 }} alt="logo" />
+              <Image className="w-[100px]" src={logoHpPrestige} alt="logo" />
             </Link>       
           <Nav />
         </div>
@@ -42,7 +42,7 @@ export default function Header() {
         <div className="fixed z-50  w-full bg-[#FFFFFF] shadow-md">
           <div className=" mx-auto w-ful flex items-center justify-between max-w-[1140px] px-[.75rem] lg:px-10 ">
               <Link href="/">
-               <Image src={logoHpPrestige} style={{ width: 130 }} alt="logo" />
+               <Image  className="w-[100px]"  src={logoHpPrestige}  alt="logo" />
               </Link>
             <Nav />
           </div>

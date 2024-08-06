@@ -1,9 +1,9 @@
 "use client"
 import React from "react";
 
-import { DATA_CONTACT } from "../../src/Data/Constant";
+import { DATA_CONTACT } from "../Data/constant";
 const Contacter = () => {
-  const handlerSubmit = (e) => {
+  const handlerSubmit = (e:any) => {
     e.preventDefault();
     const form = e.target;
 

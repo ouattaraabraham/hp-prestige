@@ -1,6 +1,4 @@
 "use client"
-import React from "react";
-
 import { DATA_CONTACT } from "../Data/constant";
 const Contacter = () => {
   const handlerSubmit = (e:any) => {

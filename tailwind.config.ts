@@ -13,6 +13,30 @@ const config: Config = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
+      keyframes: {
+        temoignage: {
+          '0%': { transform: 'translateX(0)' },
+          '100%': { transform: 'translateX(-100%)'},
+        },
+        temoin: {
+          '0%': { transform: 'translateX(0)' },
+          '100%': { transform: 'translateX(-80%)'},
+        },
+        "accordion-down": {
+          from: { height: "0" },
+          to: { height: "var(--radix-accordion-content-height)" },
+        },
+        "accordion-up": {
+          from: { height: "var(--radix-accordion-content-height)" },
+          to: { height: "0" },
+        },
+      },
+      animation: {
+        temoignage: 'temoignage 30s linear infinite',
+        temoin:'temoin 40s linear infinite',
+        "accordion-down": "accordion-down 0.2s ease-out",
+        "accordion-up": "accordion-up 0.2s ease-out",
+      },
     },
   },
   plugins: [],

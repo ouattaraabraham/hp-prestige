@@ -27,11 +27,11 @@ const Nav = () => {
     {/* mobile */}
     <div className='lg:hidden'>
       <button  onClick={toggleMenu}>
-        {isOpenMenu?<X/>:<AlignJustify/>}
+        {isOpenMenu?<X/>:<AlignJustify size={30}/>}
       </button>
       {isOpenMenu&&(
      
-          <div className='z-20 fixed top-[110px] bg-slate-100 left-0 w-full h-fit py-5 '>
+          <div className='z-20 fixed top-[100px] shadow-sm bg-slate-100 left-0 w-full h-fit py-5 '>
           <ul className='font-bold text-[18px] pl-6 mt-5'>
             {DATA_NAV_LINK.map(item=>
               <li className={`py-2 px-2 rounded-lg ${item.id !==1?"hover:bg-blue-800/10": ""}  `} key={item.id}>

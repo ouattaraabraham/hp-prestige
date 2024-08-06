@@ -1,7 +1,7 @@
 // import { Dot } from 'lucide-react';
 
-import {temoin1,temoin2,temoin3,temoin4,temoin5,temoin6,temoin7,bgVidange,dechet,bgDechet,desinsectisation1,tondeuse1,espaceVerts,managerFemme,bgNetoyage,curage,gestionDechet,desinsectisation,femmeMenager,tondeuse,logo,logo1,logo2,logo3, Netoyage1,Netoyage2,Netoyage3,netoyageFemme,netoyageGp,tenoinFemme } from "../assets/img"
-import {logoHP_PRESTIGE, flech } from "../assets/icon"
+import {temoin1,temoin2,temoin3,temoin4,temoin5,temoin6,temoin7,bgVidange,dechet,bgDechet,desinsectisation1,tondeuse1,espaceVerts,managerFemme,bgNetoyage,curage,gestionDechet,desinsectisation,femmeMenager,tondeuse,logo,logo1,logo2,logo3, Netoyage1,Netoyage2,Netoyage3,netoyageFemme} from "../assets/img"
+import {partenaire1,partenaire2,partenaire3,partenaire4,partenaire5,partenaire6,logoHP_PRESTIGE, flech } from "../assets/icon"
 
 export const logoHpPrestige= logoHP_PRESTIGE
 export const IMG= Netoyage2
@@ -96,28 +96,29 @@ export const DATA_SERVICE_CREA={
   h2:"Notre Equipe",
   btn:"En savoir plus",
   card:[
-      {id:0,img:Netoyage3,h2:"Nettoyage et entretien des locaux",link:"/service/nettoyage et entretien des locaux",p:[
+      {id:0,img:Netoyage3,h2:"nettoyage et entretien des locaux",link:"/service/nettoyage-et-entretien-des-locaux",
+        p:[
       {id:0,txt:"Nettoyage de Bureaux"},
       {id:1,txt:"Entretien des Espaces Communs"},
       {id:2,txt:"Nettoyage Spécialisé"},
       {id:3,txt:"Nettoyage Régulier et Ponctuel"},
       {id:4,txt:"Nettoyage Écologique"},
     ]},
-    {id:1,img:femmeMenager,h2:"Netoyage a domicile",link:"/service/netoyage a domicile",p:[
+    {id:1,img:femmeMenager,h2:"Netoyage a domicile",link:"/service/netoyage-a-domicile",p:[
       {id:0,txt:"Nettoyage Complet de la Maison"},
       {id:1,txt:"Entretien des Sols"},
       {id:2,txt:"Dépoussiérage et Désinfection"},
       {id:3,txt:"Nettoyage des Vitres"},
       {id:4,txt:"Entretien des Espaces Extérieurs"},
     ]},
-    {id:2,img:tondeuse,h2:"Création et Entretien d'espace verts",link:"/service/creation et entretien d'espace verts",p:[
+    {id:2,img:tondeuse,h2:"Création et Entretien d'espace verts",link:"/service/creation-et-entretien-espace-verts",p:[
       {id:0,txt:"Conception de Jardins"},
       {id:1,txt:"Plantation et Aménagement Paysager"},
       {id:2,txt:"Entretien des Jardins"},
       {id:3,txt:"Entretien des Espaces Communs"},
       {id:4,txt:"Nettoyage et Entretien des Piscines"},
     ]},
-    {id:3,img:desinsectisation,h2:"Dératisation et Désinsectisation",link:"/service/deratisation et desinsectisation"
+    {id:3,img:desinsectisation,h2:"Dératisation et Désinsectisation",link:"/service/deratisation-et-desinsectisation"
 ,p:[
       {id:0,txt:"Dératisation"},
       {id:1,txt:"Désinsectisation"},
@@ -126,7 +127,7 @@ export const DATA_SERVICE_CREA={
       {id:5,txt:"Fumigation des stocks"},
       
     ]}, 
-    {id:4,img:gestionDechet,h2:"Gestion des déchets",link:"/service/gestion des dechets"
+    {id:4,img:gestionDechet,h2:"Gestion des déchets",link:"/service/gestion-des-dechets"
 ,p:[
       {id:0,txt:"Collecte des Déchets "},
       {id:1,txt:"Tri Sélectif"},
@@ -135,7 +136,7 @@ export const DATA_SERVICE_CREA={
       {id:2,txt:"Location de Bennes"},
       {id:2,txt:"Sensibilisation et Conseil"},
     ]},
-    {id:5,img:curage,h2:"Vidange et Curage de Fosse Septique",link:"/service/vidange et vurage de fosse septique"
+    {id:5,img:curage,h2:"Vidange et Curage de Fosse Septique",link:"/service/vidange-et-vurage-de-fosse-septique"
 ,p:[
       {id:0,txt:"Vidange de Fosse Septique"},
       {id:1,txt:"Curage de Fosse Septique"},
@@ -498,9 +499,7 @@ export const DATA_NAV_LINK= [
 // Partenaire
   export const DATA_PARTENAIRE = {
     h1:"ILS NOUS FONT CONFIANCE",
-    logo:[logo1,logo2,logo3,logo2,logo1,logo3,logo3,logo2
-  
-    ],
+    logo:[logoHP_PRESTIGE,partenaire1,partenaire2,partenaire3,partenaire4,partenaire5,partenaire6,],
   }
 
   // DATA CONTACTER

@@ -20,12 +20,12 @@ const config: Config = {
         },
         partenaire: {
           '0%': { transform: 'translateX(0)' },
-          '100%': { transform: 'translateX(-200%)'},
+          '100%': { transform: 'translateX(-51.5%)'},
         },
       },
       animation: {
         temoignage: 'temoignage 30s linear infinite',
-        partenaire:'partenaire 5s linear infinite',
+        partenaire:'partenaire 10s linear infinite',
       },
     },
   },

@@ -8,9 +8,8 @@ const Partenaire = () => {
         <section className="bg-[#F1F5F7] py-[50px]">  
         {/* partenaire */}
         <h1 className="w-fit mx-auto text-[#686868] text-[25px] lg:text-[35px] font-bold">{DATA_PARTENAIRE.h1}</h1>
-        <div className="overflow-hidden mx-auto max-w-[1140px] px-[.75rem] pt-[100px] pb-[50px] lg:pt-[150px]">
-          <div className="flex gap-10 animate-partenaire hover:pause">
-
+        <div className="relative overflow-hidden pt-[100px] pb-[50px] lg:pt-[150px]">
+        <div className="flex items-center w-fit gap-24 animate-partenaire hover:pause">
             {DATA_PARTENAIRE.logo.map((item, index) => {
               return (
                   <div key={index} className="relative">

@@ -1,2 +1,8 @@
 export {default as flech} from "./Arrow1.svg"
 export {default as logoHP_PRESTIGE} from "./logo-HP-PRESTIGE.png"
+export {default as partenaire1} from "./partenaire1.png"
+export {default as partenaire2} from "./partenaire2.png"
+export {default as partenaire3} from "./partenaire3.png"
+export {default as partenaire4} from "./partenaire4.png"
+export {default as partenaire5} from "./partenaire5.png"
+export {default as partenaire6} from "./partenaire6.png"

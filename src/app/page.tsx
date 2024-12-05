@@ -14,8 +14,8 @@ export default function Home() {
     <section className=""> 
      <SliderImageHeader/> 
      <CardPresantation props={DATA_CARD_PRESANTATION}/>
-     <Partenaire/>
-     <ContacterFlech/>
+{/*      <Partenaire/> */}
+{/*      <ContacterFlech/> */}
      <ServiceCrea/>
      <Temoignage style={styleTemoigange}/>
      <CardPresantation props={DATA_CARD_PRESANTATION_EQUIPE}/>

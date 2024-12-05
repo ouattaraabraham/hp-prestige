@@ -9,7 +9,7 @@ import { DATA_TEMOIGNAGE } from "../Data/constant";
 const src ="https://pixabay.com/fr/photos/simba-chat-gueule-de-bois-portrait-8618301/"
 export default function Temoignage({ style }:{style:any}) {
   return (
-    <section className="bg-[#F1F5F7] ">
+    <section className="bg-slate-200">
       <div >
         {/* partenaire */}
         <div className={`relative overflow-hidden ${style}`}>
